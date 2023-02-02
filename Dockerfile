@@ -1,0 +1,4 @@
+FROm devopdedu/webapp
+ADD website /var/www.html
+RUN rm /var/www.html/index.html
+CMD apachectl -o  FOREGROUND
